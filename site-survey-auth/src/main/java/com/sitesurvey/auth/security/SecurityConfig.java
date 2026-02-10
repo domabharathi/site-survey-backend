@@ -69,7 +69,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
         	    "http://localhost:5173",
-        	    "https://voluble-fudge-e77e26.netlify.app"
+        	    "https://voluble-fudge-e77e26.netlify.app",
+                "https://site-survey-tool.netlify.app"
         	));
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
